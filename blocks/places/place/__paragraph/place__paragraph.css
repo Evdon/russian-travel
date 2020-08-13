@@ -1,0 +1,10 @@
+@import url(./_text/place__paragraph_text.css);
+.place__paragraph {
+    grid-area: place__paragraph;
+}
+
+@media (max-width: 717px) {
+    .place__paragraph {
+        margin: 0 16px;
+    }
+}

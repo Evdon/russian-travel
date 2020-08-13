@@ -1,0 +1,15 @@
+@import url(./__logo/__logo.css);
+@import url(./__lang-link/__lang-link.css);
+@import url(./__lang/header__lang.css);
+.header {
+    height: 52px;
+    padding: 28px 48px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 434px) {
+    .header {
+        padding: 16px 16px 0;
+}
+}

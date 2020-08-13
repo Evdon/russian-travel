@@ -1,0 +1,6 @@
+@media (max-width: 717px) { 
+    .place__website_hidden {
+        position: absolute;
+        clip-path: polygon(0px 0px,0px 0px,0px 0px,0px 0px);
+    }
+}
