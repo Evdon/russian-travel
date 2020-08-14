@@ -5,6 +5,7 @@
     font-size: 14px;
     line-height: 114%;
     text-align: right;
+    margin: 0;
 }
 
 @media (max-width: 717px) {

@@ -5,4 +5,17 @@
 .cover {
     display: flex;
     margin: 92px 0;
+    
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-bottom: 88px;
+    }
+}
+
+@media (max-width: 717px) {
+    .footer {
+        margin-bottom: 64px;
+    }
 }

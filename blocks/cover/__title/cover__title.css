@@ -11,8 +11,10 @@
     margin: 0;
     }
 
-@media  (max-width: 610px) {
-   .cover__title {
-     font-size: calc(10px + 16 * (100vw  / 320));
+    @media (max-width: 767px) {
+        .cover__title {
+            font-size: 32px;
+            line-height: 109%;
+        }
     }
-}
+    

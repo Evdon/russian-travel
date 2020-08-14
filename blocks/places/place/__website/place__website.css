@@ -1,9 +1,0 @@
-@import url(./_link/place__website_link.css);
-@import url(./_url-heading/place__website_url-heading.css);
-@import url(./_hidden/place__website_hidden.css);
-.place__website {
-    grid-area: place__website;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}

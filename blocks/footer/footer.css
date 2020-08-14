@@ -8,7 +8,7 @@
     padding: 0 0 24px;
     margin: 0 48px;
     justify-content: space-between;
-    align-items: baseline;
+    max-height: 18px;
 }
 
 @media (max-width: 768px) {
@@ -19,7 +19,8 @@
 
 @media (max-width: 717px) {
     .footer {
-        margin: 0 0 0 16px;
+        max-height: 340px;
+        margin: 0 0 0 24px;
         flex-direction: column;
     }
 }

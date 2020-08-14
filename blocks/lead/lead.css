@@ -5,7 +5,6 @@
 @import url(./__figure/lead__figure.css);
 .lead {
     display: grid;
-    grid-template-columns: minmax(10%, 984px);
     grid-template-rows: min-content;
     justify-content: center;
     margin: 56px 148px 0 148px;
