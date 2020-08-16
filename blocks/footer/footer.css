@@ -5,21 +5,23 @@
 @import url(./__cell/footer__cell.css);
 .footer {
     display: flex;
-    padding: 0 0 24px;
-    margin: 0 48px;
+    padding: 0 48px 24px;
+    margin: 0 auto;
     justify-content: space-between;
     max-height: 18px;
+    max-width: 1184px;
 }
 
 @media (max-width: 768px) {
     .footer {
+        padding: 0 0 24px;
         margin: 0 24px;
     }
 }
 
 @media (max-width: 717px) {
     .footer {
-        max-height: 340px;
+        max-height: 350px;
         margin: 0 0 0 24px;
         flex-direction: column;
     }
